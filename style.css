@@ -14,6 +14,7 @@ label {
 body {
     background-image: url('Taytay.jpg');
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
