@@ -1,0 +1,58 @@
+h2  {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 950;
+}
+
+label {
+  color: white;
+  font-size: 18px; /* Example font size */
+  font-weight: 400;
+}
+
+body {
+    background-image: url('Taytay.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.question-box {
+  border: 2px solid #ccc; /* Add a border around the box */
+  padding: 20px; /* Add some padding inside the box */
+  margin: 200px auto; /* Center the box horizontally */
+  border-radius: 10px; /* Add rounded corners to the box */
+  background-color: transparent; /* Set background color for the box */
+  max-width: 600px; /* Set maximum width for the box */
+  text-align: center; /* Center the content within the box */
+}
+
+button:hover {
+  background-color: rgb(170, 231, 170); /* Change background color on hover */
+}
+
+.incorrect {
+  color: red;
+}
+
+.correct {
+  color: green;
+  font-weight: 700;
+}
+
+.box-score {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 50px auto 0; /* Reduced top margin */
+  border-radius: 10px;
+  background-color: transparent;
+  max-width: 200px;
+}
+
+
+  @media screen and (max-width: 950px) {
+    
+  }
+  
