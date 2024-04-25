@@ -70,7 +70,7 @@ function SubmitEvent2() {
 
 function SubmitEvent3() {
     var answer3 = document.getElementById("question3").value.toLowerCase();
-    var correctAnswer = "Scott Kingsley Swift";
+    var correctAnswer = "Alison";
     var answerElement = document.getElementById("answer3");
     
     if (answer3 === correctAnswer.toLowerCase()) {
