@@ -9,6 +9,8 @@ label {
 color: white;
 font-size: 18px; /* Example font size */
 font-weight: 400;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 body {
@@ -20,9 +22,14 @@ body {
   min-height: 100vh;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .question-box {
 border: 2px solid #ccc; /* Add a border around the box */
-padding: 20px; /* Add some padding inside the box */
+padding: 50px; /* Add some padding inside the box */
 margin: 200px auto; /* Center the box horizontally */
 border-radius: 10px; /* Add rounded corners to the box */
 background-color: transparent; /* Set background color for the box */
