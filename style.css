@@ -31,8 +31,43 @@ text-align: center; /* Center the content within the box */
 margin-bottom: 0px;
 }
 
-button:hover {
-background-color: rgb(170, 231, 170); /* Change background color on hover */
+  button.submit-btn,
+  button.submit-btn2,
+  button.submit-btn3,
+  button.submit-btn4,
+  button.submit-btn5 {
+  min-width: 10px;
+  min-height: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 450;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 5px;
+}
+
+button.submit-btn:hover,
+button.submit-btn2:hover,
+button.submit-btn3:hover,
+button.submit-btn4:hover,
+button.submit-btn5:hover,
+button.submit-btn:focus,
+button.submit-btn2:focus,
+button.submit-btn3:focus,
+button.submit-btn4:focus,
+button.submit-btn5:focus {
+  color: #313133;
+  transform: translateY(-6px);
 }
 
 .incorrect {
