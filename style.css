@@ -32,19 +32,27 @@ div.submit {
   flex-direction: row;
   justify-content: space-between;
   width: 80px;
-  height: 25px;
+  height: 32px;
   margin-top: 20px;
+  padding: 20px;
 }
 
 button {
-  margin: 0 10px; /* Adjust the margin as needed */
+  margin: 0 7px; /* Adjust the margin as needed */
+  border-radius:0.2em;
+  box-sizing: border-box;
+  font-weight:400;
+  box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+  cursor: pointer;
 }
 
-#send, #save {
-    font-size: 16px; /* You can adjust the font size as needed */
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+
+div.box-score {
+border: 2px solid #ccc;
+margin-left: 27px;
+border-radius: 10px;
+max-width: 200px;
+}
 
 .question-box {
 border: 2px solid #ccc; /* Add a border around the box */
@@ -103,15 +111,6 @@ color: red;
 .correct {
 color: green;
 font-weight: 700;
-}
-
-.box-score {
-border: 2px solid #ccc;
-padding: 20px;
-margin: 20px auto 0; /* Reduced top margin */
-border-radius: 10px;
-background-color: transparent;
-max-width: 200px;
 }
 
 

@@ -1,5 +1,21 @@
 // Initialize score variable
 // Initialize score variable
+
+function handleSaveButtonClick() {
+  alert("Progress saved!");
+}
+
+function handleSendButtonClick() {
+  alert("Saved for progress");
+}
+
+document
+  .getElementById("send")
+  .addEventListener("click", handleSendButtonClick);
+document
+  .getElementById("save")
+  .addEventListener("click", handleSaveButtonClick);
+
 var score = 0;
 
 // Flags to track whether each question has been answered correctly
@@ -138,3 +154,8 @@ function updateTotalScore() {
   var totalScoreElement = document.querySelector(".box-score h2");
   totalScoreElement.textContent = "Total Score: " + score;
 }
+
+document.getElementById("refreshButton").addEventListener("click", function () {
+  alert("Page will refresh");
+  location.reload();
+});
