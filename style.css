@@ -46,12 +46,21 @@ button {
   cursor: pointer;
 }
 
+#refreshButton,
+#send,
+#save {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-div.box-score {
-border: 2px solid #ccc;
-margin-left: 27px;
-border-radius: 10px;
+
+.box-score {
+margin-top: 10px;
+border: 2px solid #888484;
+margin-left: 10px;
+border-radius: 20px;
 max-width: 200px;
+background-color: transparent;
 }
 
 .question-box {
